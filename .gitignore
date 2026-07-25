@@ -10,8 +10,8 @@ target/
 **/test_snapshots/
 
 # IDE files
+temp_auto_push.bat
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -21,5 +21,7 @@ target/
 Thumbs.db
 
 # Environment files
-.env
-.env.local
+.gitignore
+branch_structure.json
+config.bat
+node_modules
